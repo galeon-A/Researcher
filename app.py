@@ -21,7 +21,7 @@ load_dotenv()
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Nova - Research Paper Writer",
+    page_title="Astra",
     page_icon="📄",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -120,7 +120,7 @@ section[data-testid="stSidebar"] { background: #f5f7ff; }
 st.markdown(
     """
 <div class="main-header">
-    <h1>📄 Nova Research Paper Writer</h1>
+    <h1>📄 Astra - Research Paper Writer</h1>
     <p>Powered by CrewAI · Google Gemini · LangChain · FAISS · arXiv</p>
 </div>
 """,
